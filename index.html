@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<title>Маятник Капицы</title>
+	
+	<meta charset="UTF-8"> 
+    <meta name="robots" content="all">
+	<meta name="revisit-after" content="20 days">
+	<meta http-equiv="content-language" content="ru">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./design/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./design/favicon.ico" type="image/x-icon">
+	
+	<meta name="coder" content="">
+	<meta name="author" content=""> 
+	<meta name="keywords" content="">
+	<meta name="copyright" content="">
+    <meta name="description" content="">
+	<meta name="publisher-email" content="">
+	
+	<link rel="stylesheet" href="./common/common.css">
+	<link rel="stylesheet" href="./design/colors.css">
+	<link rel="stylesheet" href="./design/plots.css">
+	<link rel="stylesheet" href="./design/style.css">
+
+<body>
+	<center>
+		<div >
+			<div id="plotPhi"></div>	
+		</div>
+		<form>
+			<br>
+			<label for="amplitude">Амплитуда</label>
+		    <input type="number" id="amplitude" style="width: 25ex;" min="0.001" max="1000" value="0.1"/><br>
+		    <label for="frequency">Частота</label>
+		    <input type="number" id="frequency" style="width: 25ex;" min="0.001" max="1000" value="14"/><br>
+		    <label for="length">Длина плеча</label>
+		    <input type="number" id="length" style="width: 25ex;" min="0.001" max="1000" value="3"/><br>
+		    <!-- <label for="angle">Угол отклонения (радиан)</label>
+		    <input type="number" id="angle" style="width: 25ex;" min="0.001" max="1000" value="0.39"/><br> -->
+		    <label for="time">Время моделирования (усл. ед)</label>
+		    <input type="number" id="time" style="width: 25ex;" min="0.001" max="1000" value="10"/><br>
+
+		    <input type="button" id="calculate_button" style="height: 4ex;" value="Посчитать"/><br><br>
+		</form>
+	</center>    
+	    
+	<script src="./common/flotr2.js"></script>
+	<script src="./scripts/plot.js"></script>
+</body>
+</html>

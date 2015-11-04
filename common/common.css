@@ -1,0 +1,32 @@
+/*
+	------<====== Prelusive CSS ======>------
+*/
+*{margin: 0; border: 0; outline: 0; padding: 0; font: inherit; overflow: hidden; border-style: solid;}
+.table{width: 100%; display: table;}
+.table > div{display: table-cell;}
+.hide{display:none!important;}
+.show{}
+/*
+		------<====== End ======>------
+	------<====== Generic CSS ======>------
+*/
+html{overflow-y: auto;}
+body{
+	width: 100%;
+	position: relative;
+	display: block;
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-weight: 200;
+	font-family: Webdings, sans-serif;
+	min-width: 800px;
+	min-height: 100%;
+	min-height: 500px;
+}
+textarea,
+input{
+	border-width: 1px;
+}
+/*
+		------<====== End ======>------
+*/

@@ -1,0 +1,51 @@
+body{
+	/*margin-left: 500px;*/
+	/*text-align: center;*/
+}
+body > div{}
+
+#plotPhi,
+#plotEnergy{
+	display: inline-block;
+	box-sizing: border-box;
+	border-width: 2px;
+	width: 600px;
+	height: 600px;
+}
+#plotPhi{
+	border-right-width: 1px;
+}
+#plotEnergy{
+	border-left-width: 1px;
+}
+
+form span{
+	display: inline-block;
+}
+form label,
+#calculate{
+	display: block;
+	font-size: 85%;
+}
+#calculate{
+	cursor: pointer;
+	width: 256px;
+	height: 25px;
+}
+#calculate:hover{
+	opacity: .85;
+}
+#calculate:active{
+	opacity: .75;
+}
+input{
+	padding: 2px;
+	margin: 2px 0;
+	display: block;
+	height: 25px;
+	width: 250px;
+}
+#initialPhi{}
+#length{}
+#amplitude{}
+#frequency{}

@@ -1,0 +1,12 @@
+body{
+	background: #ffffff;
+	color: #333333;
+}
+textarea,
+input{
+	border-color: #333333;
+}
+/**/
+[id^="plot"]{
+	border-color: #999;
+}
